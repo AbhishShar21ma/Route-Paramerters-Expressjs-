@@ -33,6 +33,7 @@
 ![8](https://github.com/AbhishShar21ma/Route-Paramerters-Expressjs-/assets/119476697/7ee6eb24-3b7c-4e1b-925d-fb7e7c5a21fb)
 
 
+//Here you can select either post or article otherwise it will not take any get request
 
 ![9](https://github.com/AbhishShar21ma/Route-Paramerters-Expressjs-/assets/119476697/e6117818-b8c1-4505-89eb-01453ff77088)
 
