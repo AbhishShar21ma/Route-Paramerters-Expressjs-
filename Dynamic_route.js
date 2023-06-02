@@ -43,6 +43,11 @@ app.get("/Location/:Village.:Post", (req, res) => {
     `You have choosen your loaction village ${Village} and post ${Post}`
   );
 });
+app.get("/:type(post|article)/:id", (req, res) => {
+  console.log(req.params);
+  res.send("Post or Article");
+});
+
 
 app.listen(port, () => {
   console.log(`Your server is running at the port http://localhost:${port}`);
