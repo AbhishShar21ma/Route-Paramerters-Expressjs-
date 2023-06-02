@@ -7,6 +7,12 @@ app.get("/Student/delete/:id", (req, res) => {
   res.send(`Hello, ${req.params.id} is deleted from our database. `);
   console.log(req.params);
 });
+app.get("/Product/:category/:id", (req, res) => {
+  res.send(
+    `Your selected product catogery is "${req.params.category}" your id is "${req.params.id}"`
+  );
+  console.log(req.params);
+});
 
 app.listen(port, () => {
   console.log(`Your server is running at the port http://localhost:${port}`);
